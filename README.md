@@ -1,2 +1,1 @@
-# atv2_PLN
-# atv2_PLN
+Repositório de códigos da segunda atividade da disciplina de Tópicos em Compiladores (Processamento de Linguagens Naturais) do curso de Ciência da Computação Campus Ministro Petrônio Portella, Universidade Federal do Piauí, Teresina-PI.
