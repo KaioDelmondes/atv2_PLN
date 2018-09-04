@@ -8,3 +8,7 @@ def media():
     
     resultadoMedia = somaTotal/fdist.N()
     return resultadoMedia
+
+def LDS():
+    resultado = len(text1)/len(set(text1))
+    return resultado
