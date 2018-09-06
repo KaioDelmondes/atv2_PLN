@@ -1,10 +1,9 @@
 import nltk
 from nltk.corpus import PlaintextCorpusReader 
 from nltk.corpus import stopwords
+from corpus_generator import corpus
 
 stopWords = stopwords.words('portuguese')
-loc = "./data_corpus/"
-corpus = PlaintextCorpusReader(loc, '.*\.txt')
 
 cfd = nltk.ConditionalFreqDist(
 	(gen, pal.lower())
