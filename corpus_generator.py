@@ -8,9 +8,5 @@ loc = input("Qual o caminho do data_corpus no seu pc? (/SEU_PATH/data_corpus/)")
 # e words() são referentes ao corpus e suas aplicações.
 
 corpus = PlaintextCorpusReader(loc, '.*\.txt')
-corpus = PlaintextCorpusReader(loc, '.*\.txt')
-
-corpus.fileids()
-corpus.words()
 
 print("\n" + str(FreqDist(corpus.words()).most_common(50)))
