@@ -1,7 +1,7 @@
-from nltk.book import *
+from nltk.book import FreqDist
 
-def media():
-    fdist = FreqDist(len(w) for w in text1)
+def media(entrada):
+    fdist = FreqDist(len(w) for w in entrada)
     somaTotal = 0
     for tam in fdist.most_common():
         somaTotal += tam[0] * tam[1]   
@@ -9,6 +9,6 @@ def media():
     resultadoMedia = somaTotal/fdist.N()
     return resultadoMedia
 
-def LDS():
-    resultado = len(text1)/len(set(text1))
+def LDS(entrada):
+    resultado = len(entrada)/len(set(entrada))
     return resultado
